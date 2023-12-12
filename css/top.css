@@ -242,6 +242,7 @@ background: #EFEFEF;
 
     height: 344px;
     width: 100%;
+    border-radius: 16px;
 }
 
 .item-img-popup {
@@ -334,7 +335,7 @@ font-weight: 500;
 line-height: 26px;
 text-align: left;
 color: #080504;
-max-height: 220px;
+max-height: 229px;
 overflow-y: scroll;
 }
 
@@ -357,5 +358,10 @@ border-radius: 8px;
 
 .info-product-popup {
     margin-bottom: 32px;
+}
+
+.wrapper-img-popup {
+
+    margin-bottom: 16px;
 }
 
