@@ -1,0 +1,507 @@
+
+section {
+
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.title-profile {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-profile-right {
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    gap: 30px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.title-profile-right p {
+
+    color: black;
+    font-size: 14px;
+    margin: unset !important;
+}
+
+.info-price {
+
+    display: flex;
+}
+
+.info-price b {
+
+    color: #D12B63;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.info-price span {
+
+    color: black;
+    font-size: 20px;
+}
+
+.title-stie-menber {
+
+    color: #080504;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-text);
+}
+
+.content-site-member {
+
+    font-weight: 500;
+    font-size: 14px;
+    color: #B81649;
+    font-family: var(--font-text);
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 40px;
+}
+
+.title-profile-mobile {
+
+    display: none;
+}
+
+.item-products-cart {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+    position: relative;
+}
+
+.wrapper-img-cart {
+
+    padding: 16px;
+}
+
+.wrapper-img-cart img {
+
+    width: 238px;
+    height: 238px;
+    border-radius: 16px;
+}
+
+.wrapper-products-cart-left {
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.wrapper-products-cart-right {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-products-cart-left p {
+
+    font-family: var(--font-text);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #080504;
+    margin-bottom: unset;
+}
+
+.wrapper-products-cart-right p {
+    
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #080504;
+
+}
+
+.price-products-cart-right {
+
+    margin-left: 64px;
+    color: #B81649 !important;
+
+}
+
+.payment-method {
+
+    background: #EFEFEF;
+    display: flex;
+    padding: 28px 0px;
+    margin-bottom: 16px;
+    margin-left: unset !important;
+    margin-right: unset !important;
+}
+
+.payment-method span {
+
+    
+    font-family: var(--font-text);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #080504;
+}
+
+.checkbox-method  {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-method label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15.95px;
+}
+
+.wrapper-item-products-cart {
+
+    margin-bottom: 32px;
+}
+
+.ルール {
+
+    margin-bottom: 32px;
+}
+
+.ルール p {
+
+    font-size: 16px;
+    margin-bottom: unset !important;
+}
+
+.ルール .content-site-member {
+
+    color: #080504;
+    font-weight: 600;
+    font-family: var(--font-text);
+    padding-bottom: 24px;
+
+}
+
+.ルール span {
+
+    color: #B81649;
+}
+
+.price-total {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.price-total p {
+
+    font-family: var(--font-text);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+
+}
+.price-total-left {
+    margin-right: 64px;
+
+}
+.price-total-left p{
+
+    color: #000000;
+}
+
+.price-total-right p {
+   
+    color: #B81649;
+}
+
+.この内容で交換する {
+
+    width: 424px;
+    border: 2px solid #979797;
+    border-radius: 8px;
+    background: linear-gradient(0deg, #EFEFEF, #EFEFEF);
+    padding: 15px 0px;
+    text-align: center;
+    font-family: var(--font-text);
+    font-size: 16px;
+    font-weight: 500;
+    color: #979797;
+    margin: auto;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+.icon-arrow-next {
+
+    position: absolute;
+    top: 0;
+    right: 20.5px;
+    bottom: 0;
+    display: flex;
+    align-items: center ;
+}
+
+.商品選択ページにもどる {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #080504;
+    border: unset;
+
+}
+
+.商品選択ページにもどる-mobile {
+
+    display: none;
+}
+
+  
+@media screen and (max-width: 576px) {
+
+    .商品選択ページにもどる-mobile {
+
+        display: block;
+        font-size: 14px;
+    }
+
+    .商品選択ページにもどる-pc {
+
+        display: none;
+    }
+
+    .swiper-container-pc {
+
+        display: none;
+    }
+    
+    .site-top-pc {
+        display: none;
+    }
+
+    .title-profile {
+        display: none;
+    }
+    
+    .title-profile-mobile {
+        display: block;
+    }
+
+    .title-profile-top-mobile {
+        font-family: var(--font-text);
+        font-size: 24px;
+        font-weight: 700;
+        background: #080504;
+        text-align: center;
+        color: white;
+        padding: 20.5px 0px;
+    }
+    .title-profile-bottom-mobile  {
+        padding: 25px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 17.96px;
+        background: #EFEFEF;
+        border-bottom: 1px solid #D7D7D8;
+
+    }
+    .text-保有Mポイント {
+
+        font-family: var(--font-text);
+        font-size: 14px;
+        font-weight: 700;
+        text-align: left;
+        color: #000000;
+        margin-bottom: unset !important;
+
+    }
+
+    .text-price-mobile p {
+
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: #D12B63;
+        margin-bottom: unset !important;
+        display: flex;
+        align-items: center;
+        gap: 2.41px;
+    }
+
+    .text-price-mobile p span {
+
+        font-size: 22px;
+        font-weight: 700;
+        color: #000000;
+
+    }
+
+    .site-member {
+
+        padding: 40px 15px;
+    }
+
+    .title-stie-menber {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .content-site-member {
+        font-size: 14px;
+    }
+    .wrapper-img-cart img {
+
+        width: 80px;
+        height: 82.8px;
+    }
+
+    .item-products-cart {
+
+        flex-direction: column;
+    }
+
+    .wrapper-products-cart-left {
+
+        align-items: flex-start;
+        gap: 0px;
+    }
+
+    .content-site-member {
+
+        margin-bottom: unset !important;
+    }
+    .wrapper-info-products-cart {
+
+        margin-top: 15px;
+    }
+
+    .wrapper-products-cart-left p {
+
+        font-size: 14px;
+    }
+
+    .item-products-cart {
+
+        align-items: flex-start;
+    }
+
+    .wrapper-products-cart-right {
+
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .wrapper-products-cart-right p {
+        
+        margin-left: 32px;
+    }
+    .payment-method span {
+
+        font-size: 14px;
+    }
+
+    .checkbox-method {
+        justify-content: end;
+    }
+
+    .price-total {
+
+        margin-bottom: 35px;
+    }
+
+    .price-total-left {
+
+        margin-right: 17px;
+    }
+
+    .price-total .row {
+
+            margin-left: unset !important;
+            margin-right: unset !important;
+    }
+    
+    .この内容で交換する-mobile {
+
+        width: 100%;
+        font-size: 14px;
+        border: 2px solid #B81649;
+        color: #B81649;
+        background: linear-gradient(0deg, #FFEEF3, #FFEEF3);
+
+
+    }
+
+    .wrapper-この内容で交換する {
+        padding: 0px 30px;
+    }
+
+    .icon-mobile {
+
+        fill: #B81649;
+    }
+
+    .商品選択ページにもどる {
+
+        width: 100%;
+    }
+
+    .この内容で交換する {
+
+        margin-bottom: 24px;
+    }
+
+    .wrapper-item-products-cart {
+
+        margin-bottom: 16px;
+    }
+
+    .payment-method {
+
+        border-radius: 8px;
+    }
+
+    .ルール {
+
+        margin-bottom: 17px;
+    }
+
+    .ルール p {
+
+        font-size: 14px;
+    }
+
+    .price-total p {
+
+        font-size: 14px;
+    }
+    .icon-prev-mobile {
+
+        position: absolute;
+        top: 0;
+        left: 23.5px;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+    }
+}
+
