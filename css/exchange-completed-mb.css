@@ -1,4 +1,28 @@
- @media screen and (max-width: 576px) {
+:root {
+    --color-blue: #001e62;
+    --color-red: rgb(209, 43, 99);
+    --color-yellow: #c63527;
+    --color-gray: #222;
+    --font-text:
+    'Inter', 'Noto Sans JP', sans-serif;
+    --font-title:
+    'Bebas Neue', cursive;
+    --font-marin:
+    'Marines_name';
+    --background-rgba: linear-gradient(90.07deg, #F68121 -0.48%, #F86E54 100.22%);
+  }
+  
+@media screen and (max-width: 576px) {
+
+    .site-top {
+
+        display: block;
+    }
+    
+    .site-date {
+    
+        display: block;
+    }
 
     .商品選択ページにもどる-mobile {
 
@@ -110,10 +134,6 @@
         gap: 0px;
     }
 
-    .content-site-member {
-
-        margin-bottom: unset !important;
-    }
     .wrapper-info-products-cart {
 
         margin-top: 15px;
@@ -169,20 +189,12 @@
 
         width: 100%;
         font-size: 14px;
-        border: 2px solid #B81649;
-        color: #B81649;
-        background: linear-gradient(0deg, #FFEEF3, #FFEEF3);
 
 
     }
 
     .wrapper-この内容で交換する {
         padding: 0px 30px;
-    }
-
-    .icon-mobile {
-
-        fill: #B81649;
     }
 
     .商品選択ページにもどる {
@@ -219,14 +231,22 @@
 
         font-size: 14px;
     }
-    .icon-prev-mobile {
 
-        position: absolute;
-        top: 0;
-        left: 23.5px;
-        bottom: 0;
-        display: flex;
-        align-items: center;
+    .site-top {
+
+        padding: 4px 0px;
+    }
+
+    .site-top .btn-custom {
+
+        min-width: 230px;
+        font-size: 14px;
+    }
+  
+    .site-date .text {
+
+        padding: 8px 0px;
+        font-size: 12px;
     }
 }
 

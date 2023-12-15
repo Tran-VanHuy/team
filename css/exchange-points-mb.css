@@ -1,4 +1,18 @@
-
+:root {
+    --color-blue: #001e62;
+    --color-red: rgb(209, 43, 99);
+    --color-yellow: #c63527;
+    --color-gray: #222;
+    --font-text:
+    'Inter', 'Noto Sans JP', sans-serif;
+    --font-title:
+    'Bebas Neue', cursive;
+    --font-marin:
+    'Marines_name';
+    --background-rgba: linear-gradient(90.07deg, #F68121 -0.48%, #F86E54 100.22%);
+  }
+  
+  
 @media screen and (max-width: 576px) {
     .modal-open .modal {
 
